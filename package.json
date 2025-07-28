@@ -1,0 +1,30 @@
+{
+  "name": "email-auth-system",
+  "version": "1.0.0",
+  "description": "基于 Bun 的邮件认证系统",
+  "main": "server.ts",
+  "scripts": {
+    "start": "bun run server.ts",
+    "dev": "bun --watch server.ts",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.8",
+    "mailparser": "^3.6.5",
+    "imap": "^0.8.19"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.14",
+    "@types/imap": "^0.8.40",
+    "@types/bun": "latest"
+  },
+  "keywords": [
+    "email",
+    "authentication",
+    "smtp",
+    "bun",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
